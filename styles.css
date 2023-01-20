@@ -5,11 +5,61 @@ body {
     align-items: center;
     height: 100vh;
     justify-content: center;
-    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fnature%2520background%2F&psig=AOvVaw3IkHBjEDtGP3YQh3_PnlWM&ust=1674280224373000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIC024G61fwCFQAAAAAdAAAAABAE");
+    font-family: sans-serif;
+    background: url("https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+    background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
-h2 {
+h1 {
     text-transform: uppercase;
-    font-size: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    color: rgb(219, 16, 155);
+    margin: 30px auto;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.clock div {
+    margin: 5px;
+    position: relative;
+}
+
+.clock span {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 80px;
+    background-color: slateblue;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    opacity: .8;
+    font-size: 60px;
+    padding: 8px;
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: rgb(27, 27, 123);
+    opacity: 0.8;
+}
+
+.clock #ampm {
+    bottom: 0;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    font-size: 20px;
+    background-color: darkcyan;
 }
