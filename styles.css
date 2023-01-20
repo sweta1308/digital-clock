@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fnature%2520background%2F&psig=AOvVaw3IkHBjEDtGP3YQh3_PnlWM&ust=1674280224373000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIC024G61fwCFQAAAAAdAAAAABAE");
+    background-size: cover;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 100px;
+}
